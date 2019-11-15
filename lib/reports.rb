@@ -1,6 +1,11 @@
 class Summary
 
-  def count_colour(string)
-    return "Red : 3"
+  def count_colour(colour, string)
+  arr = string.split(",")
+  num = arr.count(colour)
+
+  "#{colour} : #{num}"
+
+
   end
 end
