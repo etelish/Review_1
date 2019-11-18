@@ -6,6 +6,5 @@ class Summary
 
   "#{colour} : #{num}"
 
-
   end
 end
